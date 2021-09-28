@@ -1,0 +1,11 @@
+import turtle as t
+t.shape('turtle')
+
+def right(n,):
+    for i in range (n):
+        t.forward(50)
+        t.left(180 - 180*(n-2)/n)
+
+for j in range (10):
+    right (3+j)
+    t.forward(10)

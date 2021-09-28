@@ -1,0 +1,13 @@
+import turtle as t
+t.shape('turtle')
+
+def d(r):
+    for i in range(90):
+        t.forward(r)
+        t.right(2)
+    for i in range(90):
+        t.forward(r/4)
+        t.right(2)
+t.left(90)
+for i in range(10):            
+    d(3)

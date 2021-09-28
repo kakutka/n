@@ -1,0 +1,15 @@
+import turtle as t
+t.shape('turtle')
+
+def o2(r):
+    for i in range(90):
+        t.forward(r)
+        t.left(4)
+    for i in range(90):
+        t.forward(r)
+        t.right(4)    
+t.left(90)       
+for j in range(20):
+    o2((2+j)/4)
+    
+            

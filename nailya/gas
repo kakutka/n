@@ -1,0 +1,36 @@
+import turtle as t
+import random as r
+t.shape('circle')
+t.speed(10)
+
+t.penup()
+t.goto(300,-300)
+t.pendown()
+t.goto(-300,-300)
+t.goto(-300,300)
+t.goto(300,300)
+t.goto(300,-300)
+
+def g():
+	noft=5
+	steps = 1000
+
+	pool=[[t.Turtle(shape='circle'),0,0,0,0] for i in range (noft)]
+	for un in pool:
+		un[0].penup()
+		un[0].speed(50)
+		un[1], un[2] = r.randint(-300,300),r.randint(-300,300)
+		un[3], un[4] = r.randint(-5,5), r.randint(-5,5)
+		un[0].goto(un[1], un[2])
+		
+	for i in range(steps):
+		for un in pool:
+			un[1] += un[3]
+			un[2] += un[4]
+			if abs(un[1])>=301:
+				un[3] = - un[3]
+			if abs(un[2])>=301:
+				un[4] = - un[4]
+			un[0].goto(un[1],un[2])
+g()
+input()

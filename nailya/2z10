@@ -1,0 +1,10 @@
+import turtle as t
+t.shape('turtle')
+
+def o(r):
+    for i in range(180):
+        t.forward(r)
+        t.left(2)
+for j in range(6):
+    o(5)
+    t.left(60)

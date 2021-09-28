@@ -1,0 +1,9 @@
+import turtle as t
+t.shape('turtle')
+t.speed(0.00001)
+inp = open('cifri.txt', 'r')
+s = inp.readlines()
+b=[x.rstrip('\n') for x in s]
+for i in b[0]:
+	i 
+inp.close()

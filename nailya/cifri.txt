@@ -1,0 +1,9 @@
+a0=(t.forward(20), t.left(90), t.forward(40), t.left(90), t.forward(20), t.left(90), t.forward(40), t.left(90), t.penup(), t.forward(30), t.pendown())
+a1=(t.penup(), t.forward(20), t.pendown(), t.left(90), t.forward(40), t.left(135), t.forward(20*2**0.5), t.penup(), t.left(45), t.forward(20), t.left(90), t.penup(), t.forward(30), t.pendown())
+a2=(t.forward(20), t.penup(), t.backward(20), t.pendown(), t.left(45), t.forward(20*2**0.5), t.left(45), t.forward(20), t.left(90), t.forward(20), t.penup(), t. left(90), t.forward(40), t. left(90), t.forward(30), t.pendown())
+a3=(t.left(45), t.forward(20*2**0.5), t.left(135), t.forward(20), t.right(135), t.forward(20*2**0.5),  t.left(135), t.forward(20), t.penup(), t. left(90), t.forward(40), t. left(90), t.forward(30), t.pendown())
+a4=(t.penup(), t.forward(20), t.pendown(), t.left(90), t.forward(40), t.backward(20), t.left(90), t.forward(20), t.righ(90), t.forward(20), t.penup(), t.backward(40), t.right(90), t.forward(30), t.pendown())
+
+
+
+

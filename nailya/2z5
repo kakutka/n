@@ -1,0 +1,18 @@
+import turtle as t
+
+t.shape('turtle')
+s=-10
+t.penup()
+x=s
+t.goto(x,x)
+t.pendown()
+for i in range(10):
+    for j in range(4):
+        t.forward(20-i*2*s)
+        t.left(90)
+    t.penup()
+    x = x +s
+    t.goto(x,x)
+    t.pendown()
+       
+    

@@ -1,0 +1,7 @@
+import turtle as t
+t.shape('turtle')
+
+for j in range(100):
+    for i in range(2):
+        t.forward(50+5*j)
+        t.left(90)
